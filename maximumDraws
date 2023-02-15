@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+int maximumDraws(int n){
+    return n+1;
+}
+int main(){
+    int n,a;
+    cin>>n;
+    for(int i=0; i<n;i++){
+        cin>>a;
+        cout<<maximumDraws(a)<<endl;
+    }
+}
