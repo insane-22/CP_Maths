@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+void findPoint(int a, int b, int c, int d){
+    int rx, ry;
+    rx=2*c-a;
+    ry=2*d-b;
+    cout<<rx<<" "<<ry;
+}
+
+int main(){
+    int n, a,b,c,d;
+    cin>>n;
+    for(int i=0;i<n;i++){
+        cin>>a>>b>>c>>d;
+        findPoint(a,b,c,d);
+        cout<<"\n";
+    }
+}
