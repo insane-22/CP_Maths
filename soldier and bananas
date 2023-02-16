@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a,b,c;
+    cin>>a>>b>>c;
+    int g=(c*(c+1)/2)*a;
+    if(g>b){
+        cout<<g-b;
+    }
+    else{
+        cout<<"0";
+    }
+}
